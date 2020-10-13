@@ -17,7 +17,7 @@ class ViewController: UIViewController {
             print(String(data: data, encoding: .utf8)!)
         }
 
-        task.resume()
+          task.resume()
     
         // Do any additional setup after loading the view.
     }
