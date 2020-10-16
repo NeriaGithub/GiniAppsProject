@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SmallCollectionViewCell" id="gTV-IL-0wX" customClass="SmallCollectionViewCell" customModule="GiniAppsProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nss-sb-PTU">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sml-fe-kg8">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="50"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="dBy-vZ-Wu6"/>
+                                    <constraint firstAttribute="height" constant="50" id="quf-Ta-fkA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="sml-fe-kg8" secondAttribute="bottom" id="1QQ-Xd-04f"/>
+                            <constraint firstAttribute="trailing" secondItem="sml-fe-kg8" secondAttribute="trailing" id="Gir-TL-DOE"/>
+                            <constraint firstItem="sml-fe-kg8" firstAttribute="top" secondItem="Nss-sb-PTU" secondAttribute="top" id="kMv-gO-Kr2"/>
+                            <constraint firstItem="sml-fe-kg8" firstAttribute="leading" secondItem="Nss-sb-PTU" secondAttribute="leading" id="paV-uV-yj2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="Nss-sb-PTU" secondAttribute="bottom" id="Og9-Ap-FYW"/>
+                <constraint firstItem="Nss-sb-PTU" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="Vd9-j9-xCL"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="Nss-sb-PTU" secondAttribute="trailing" id="xOg-KU-txG"/>
+                <constraint firstAttribute="top" secondItem="Nss-sb-PTU" secondAttribute="top" id="xxg-wQ-8Z0"/>
+            </constraints>
+            <size key="customSize" width="136" height="226"/>
+            <connections>
+                <outlet property="labelHeightConstraint" destination="quf-Ta-fkA" id="ySF-PV-CTn"/>
+                <outlet property="labelWidthConstraint" destination="dBy-vZ-Wu6" id="rsb-cp-4cI"/>
+                <outlet property="numberLabel" destination="sml-fe-kg8" id="YWP-zw-HWP"/>
+            </connections>
+            <point key="canvasLocation" x="200.00000000000003" y="111.83035714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

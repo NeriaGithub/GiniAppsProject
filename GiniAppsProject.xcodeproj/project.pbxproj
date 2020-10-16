@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6C8B73B2538B7A400ABEBBA /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8B73A2538B7A400ABEBBA /* Numbers.swift */; };
+		D6C8B7442538C70900ABEBBA /* SmallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8B7422538C70900ABEBBA /* SmallCollectionViewCell.swift */; };
+		D6C8B7452538C70900ABEBBA /* SmallCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C8B7432538C70900ABEBBA /* SmallCollectionViewCell.xib */; };
+		D6C8B7492538CB0C00ABEBBA /* BigCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8B7472538CB0C00ABEBBA /* BigCollectionViewCell.swift */; };
+		D6C8B74A2538CB0C00ABEBBA /* BigCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C8B7482538CB0C00ABEBBA /* BigCollectionViewCell.xib */; };
+		D6D3769725375F5900D1D019 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3769625375F5900D1D019 /* DataManager.swift */; };
+		D6D3769A25375F7900D1D019 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3769925375F7900D1D019 /* ServerManager.swift */; };
+		D6D3769D25375F9400D1D019 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D3769C25375F9400D1D019 /* Constants.swift */; };
 		D6DBB0E725360D5A00CA58EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBB0E625360D5A00CA58EF /* AppDelegate.swift */; };
 		D6DBB0E925360D5A00CA58EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBB0E825360D5A00CA58EF /* SceneDelegate.swift */; };
 		D6DBB0EB25360D5A00CA58EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBB0EA25360D5A00CA58EF /* ViewController.swift */; };
 		D6DBB0EE25360D5A00CA58EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DBB0EC25360D5A00CA58EF /* Main.storyboard */; };
 		D6DBB0F025360D5B00CA58EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DBB0EF25360D5B00CA58EF /* Assets.xcassets */; };
 		D6DBB0F325360D5B00CA58EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DBB0F125360D5B00CA58EF /* LaunchScreen.storyboard */; };
+		E0FEC86F81D5FA3AC19E0B77 /* Pods_GiniAppsProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9506D9AEE40DC566E352197E /* Pods_GiniAppsProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		195010275A45093F16BCEECC /* Pods-GiniAppsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiniAppsProject.release.xcconfig"; path = "Target Support Files/Pods-GiniAppsProject/Pods-GiniAppsProject.release.xcconfig"; sourceTree = "<group>"; };
+		23A23ED635877FC56F129054 /* Pods-GiniAppsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiniAppsProject.debug.xcconfig"; path = "Target Support Files/Pods-GiniAppsProject/Pods-GiniAppsProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9506D9AEE40DC566E352197E /* Pods_GiniAppsProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiniAppsProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C8B73A2538B7A400ABEBBA /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		D6C8B7422538C70900ABEBBA /* SmallCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCollectionViewCell.swift; sourceTree = "<group>"; };
+		D6C8B7432538C70900ABEBBA /* SmallCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmallCollectionViewCell.xib; sourceTree = "<group>"; };
+		D6C8B7472538CB0C00ABEBBA /* BigCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCollectionViewCell.swift; sourceTree = "<group>"; };
+		D6C8B7482538CB0C00ABEBBA /* BigCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BigCollectionViewCell.xib; sourceTree = "<group>"; };
+		D6D3769625375F5900D1D019 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D6D3769925375F7900D1D019 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		D6D3769C25375F9400D1D019 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D6DBB0E325360D5A00CA58EF /* GiniAppsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiniAppsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DBB0E625360D5A00CA58EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6DBB0E825360D5A00CA58EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0FEC86F81D5FA3AC19E0B77 /* Pods_GiniAppsProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A91A9102007AEF5F7FC3A782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9506D9AEE40DC566E352197E /* Pods_GiniAppsProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6DBB0DA25360D5A00CA58EF = {
 			isa = PBXGroup;
 			children = (
 				D6DBB0E525360D5A00CA58EF /* GiniAppsProject */,
 				D6DBB0E425360D5A00CA58EF /* Products */,
+				DB15EA8FB87AD415CD4EA9E0 /* Pods */,
+				A91A9102007AEF5F7FC3A782 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +111,10 @@
 			children = (
 				D6DBB0F125360D5B00CA58EF /* LaunchScreen.storyboard */,
 				D6DBB0EC25360D5A00CA58EF /* Main.storyboard */,
+				D6C8B7422538C70900ABEBBA /* SmallCollectionViewCell.swift */,
+				D6C8B7432538C70900ABEBBA /* SmallCollectionViewCell.xib */,
+				D6C8B7472538CB0C00ABEBBA /* BigCollectionViewCell.swift */,
+				D6C8B7482538CB0C00ABEBBA /* BigCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -87,8 +122,21 @@
 		D6DBB0FD25360D8200CA58EF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D6D3769625375F5900D1D019 /* DataManager.swift */,
+				D6C8B73A2538B7A400ABEBBA /* Numbers.swift */,
+				D6D3769925375F7900D1D019 /* ServerManager.swift */,
+				D6D3769C25375F9400D1D019 /* Constants.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DB15EA8FB87AD415CD4EA9E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23A23ED635877FC56F129054 /* Pods-GiniAppsProject.debug.xcconfig */,
+				195010275A45093F16BCEECC /* Pods-GiniAppsProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6DBB0F725360D5B00CA58EF /* Build configuration list for PBXNativeTarget "GiniAppsProject" */;
 			buildPhases = (
+				0F0CCCD051C262E93FBB6C3C /* [CP] Check Pods Manifest.lock */,
 				D6DBB0DF25360D5A00CA58EF /* Sources */,
 				D6DBB0E025360D5A00CA58EF /* Frameworks */,
 				D6DBB0E125360D5A00CA58EF /* Resources */,
+				708370281068CFB5E8D75DA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,20 +198,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C8B7452538C70900ABEBBA /* SmallCollectionViewCell.xib in Resources */,
 				D6DBB0F325360D5B00CA58EF /* LaunchScreen.storyboard in Resources */,
 				D6DBB0F025360D5B00CA58EF /* Assets.xcassets in Resources */,
+				D6C8B74A2538CB0C00ABEBBA /* BigCollectionViewCell.xib in Resources */,
 				D6DBB0EE25360D5A00CA58EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F0CCCD051C262E93FBB6C3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiniAppsProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708370281068CFB5E8D75DA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiniAppsProject/Pods-GiniAppsProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiniAppsProject/Pods-GiniAppsProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiniAppsProject/Pods-GiniAppsProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6DBB0DF25360D5A00CA58EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C8B7442538C70900ABEBBA /* SmallCollectionViewCell.swift in Sources */,
+				D6D3769A25375F7900D1D019 /* ServerManager.swift in Sources */,
 				D6DBB0EB25360D5A00CA58EF /* ViewController.swift in Sources */,
+				D6C8B7492538CB0C00ABEBBA /* BigCollectionViewCell.swift in Sources */,
+				D6C8B73B2538B7A400ABEBBA /* Numbers.swift in Sources */,
+				D6D3769D25375F9400D1D019 /* Constants.swift in Sources */,
+				D6D3769725375F5900D1D019 /* DataManager.swift in Sources */,
 				D6DBB0E725360D5A00CA58EF /* AppDelegate.swift in Sources */,
 				D6DBB0E925360D5A00CA58EF /* SceneDelegate.swift in Sources */,
 			);
@@ -307,12 +407,14 @@
 		};
 		D6DBB0F825360D5B00CA58EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A23ED635877FC56F129054 /* Pods-GiniAppsProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V5PB2ET49;
 				INFOPLIST_FILE = GiniAppsProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,12 +428,14 @@
 		};
 		D6DBB0F925360D5B00CA58EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195010275A45093F16BCEECC /* Pods-GiniAppsProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3V5PB2ET49;
 				INFOPLIST_FILE = GiniAppsProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
